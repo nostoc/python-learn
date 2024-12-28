@@ -9,6 +9,8 @@ print(name.title())
 print(name.lower())
 print(name.upper())
 
+# f-string usage
+
 first_name = "ada"
 last_name = "lovelace"
 full_name = f"{first_name.title()} {last_name.title()}"
