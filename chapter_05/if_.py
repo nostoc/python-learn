@@ -31,3 +31,35 @@ elif age <18:
     print("$25")
 else:
     print("$40")
+    
+alien_color = "yellow"
+
+if(alien_color=="green"):
+    print("You earnerd 5 points!")
+elif(alien_color=="yellow"):
+    print("You earnerd 10 points!")
+elif(alien_color=="red"):
+    print("You earned 15 points!")
+age = 65
+if(age<2):
+    print("baby")
+elif(age<4):
+    print("toddler")
+elif(age<13):
+    print("kid")
+elif(age<20):
+    print("teenager")
+elif(age<65):
+    print("adult")
+elif(age>=65):
+    print("elder")
+
+favorite_fruits=["rambuttan","mangoostene","guava","water melon","mangoe"]
+
+
+fruit = "papaya"
+if fruit in favorite_fruits:
+    print(f"{fruit} is there")
+else:
+    print(f"{fruit} is not there")
+    
