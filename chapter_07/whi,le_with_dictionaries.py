@@ -19,7 +19,7 @@
 #     print(pet)
 
 reponses = {}
-polling_active = True
+polling_active = True # flag
 
 while polling_active:
     name = input("\nWhat is your name ? ")
@@ -33,3 +33,4 @@ print("\n-------POLLING RESULTS-------")
 for name, reponse in reponses.items():
     print(f"{name.title() } would like to climb {reponse.title()} mountain one day.")
 print("\n")
+
