@@ -33,3 +33,4 @@ print("\n-------POLLING RESULTS-------")
 for name, reponse in reponses.items():
     print(f"{name.title() } would like to visit {reponse.title()} one day.")
 print("\n")
+print("\n no more results")
