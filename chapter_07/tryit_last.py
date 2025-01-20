@@ -16,12 +16,3 @@ print("\n----List of Finished Sandwiches----\n")
 print(f"\nDeli has run out of pastrami\n")
 for sandwich in finished_sandwiches:
     print(f"{sandwich} sandwich\n")
-
-# #2
-# while 'pastrami' in sandwich_orders:
-#     sandwich_orders.remove('pastrami')
-
-# print(f"\nDeli has run out of pastrami\n")
-# print("----List of availble sandwiches----\n")
-# for sandwich in sandwich_orders:
-#     print(f"{sandwich}")
