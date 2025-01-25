@@ -30,3 +30,24 @@ def build_person(first_name,last_name):
 musician = build_person("John","Parker")
 print(musician)
 
+def make_shirt(size,msg):
+    print(f"Your shirt is a {size} sized shirt with '{msg}' printed on it.")
+
+make_shirt("L","I love cats")
+make_shirt(msg="I love dos",size="M")
+
+def build_musician(name,equipment,age=""):
+    musician = {'name': name,'equipment':equipment, "age":age}
+
+    return musician
+
+janitha=build_musician(name="Janitha Senani",equipment="Guitar",age='23')
+print(janitha)
+
+while True:
+    print("\nWhat is your full name? :")
+    f_name = input("First Name : ")
+    l_name = input("Last Name : ")
+
+    formatted_name = get_formatted_name(f_name,l_name)
+   
