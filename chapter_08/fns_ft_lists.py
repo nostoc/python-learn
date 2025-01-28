@@ -19,5 +19,7 @@ def show_printed_models(printed_models):
 
 unprinted_models = ["3D car", "Tetrahedron","robot pendant","car sheild"]
 printed_models = []
-print_models(unprinted_models,printed_models)
+print_models(unprinted_models[:],printed_models)
 show_printed_models(printed_models)
+print("\n")
+print(unprinted_models)
