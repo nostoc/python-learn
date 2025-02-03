@@ -20,6 +20,10 @@ class Car:
 
     def increament_odometer(self, increament):
         self.odometer_reading += increament
+    
+    def fill_gas_tank(self, tank_amount):
+        self.tank_amount = tank_amount
+        print(f"Gas tank is {self.tank_amount} amount filled.")
 
 
 class ElectricCar(Car):
@@ -28,10 +32,14 @@ class ElectricCar(Car):
         self.battery_size = 40
         
     def describe_battery(self):
-        print(f"{self.get_descriptive_name()} has a battery of size, {self.battery_size}")     
+        print(f"{self.get_descriptive_name()} has a battery of size, {self.battery_size}")  
+    
+    def fill_gas_tank(self):
+        """Electric cars don't have gas tanks"""
+        print("This car does not have a gas tank!") 
         
 my_leaf = ElectricCar("nisam","leaf",2024)
 print(my_leaf.get_descriptive_name())
 print(my_leaf.describe_battery())
-
+print(my_leaf.fill_gas_tank())
 
