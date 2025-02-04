@@ -1,0 +1,4 @@
+In Python you can do lot of stuff
+In Python you can model everyday situations using inheritance
+When you work with classes, you will add more and more attributes the clases and the classes would get larger and larger.
+In that case twe can divide the larger classes into smaller classes which works together and do the same thng done by the larger class. This is called composition.
