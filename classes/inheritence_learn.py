@@ -41,7 +41,8 @@ class Battery:
         elif self.battery_size == 45:
             range = 225
         print(f"The range of this car is {range} km.")
-
+        
+  
 
 class ElectricCar(Car):
     def __init__(self, make, model, year):
