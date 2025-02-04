@@ -22,13 +22,13 @@ from pathlib import Path
 """Approach 01"""
 path = Path("files-and-exceptions/learning_python.txt")
 contents = path.read_text()
-#print(contents)
+# print(contents)
 
 """Aprroach 2"""
-lines = contents.splitlines()
+# lines = contents.splitlines()
 content_list =[]
 
-for line in lines:  
+for line in contents.splitlines():
     line = line.replace("Python", "C++")
     content_list.append(line)
 
