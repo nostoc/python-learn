@@ -8,7 +8,7 @@ def count_words(path):
     try:
         contents = path.read_text(encoding="utf-8")
     except FileNotFoundError:
-        print(f"Sorry the {path} file  does not exist.")
+        pass#print(f"Sorry the {path} file  does not exist.")
     else:
 
         words = contents.split()
