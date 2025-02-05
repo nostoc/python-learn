@@ -25,3 +25,5 @@ def test_three_responses(language_survey):
 
     for response in responses:
         assert response in language_survey.responses
+        
+        
