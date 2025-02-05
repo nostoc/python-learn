@@ -7,7 +7,7 @@ def read_file(path):
     try:
         contents = path.read_text()
     except FileNotFoundError:
-        print(f"Oops the {path} file doesnot exist.")
+        pass# print(f"Oops the {path} file doesnot exist.")
     else:
         print(f"Contents of the file {path}")
         print(contents)
